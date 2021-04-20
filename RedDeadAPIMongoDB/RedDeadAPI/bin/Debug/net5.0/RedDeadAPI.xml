@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RedDeadAPI</name>
+    </assembly>
+    <members>
+        <member name="M:RedDeadAPI.Controllers.GamesController.GetGames">
+            <summary>
+            Gets all Games.
+            </summary>
+            <returns>A list of Games</returns>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.GamesController.GetGame(System.String)">
+            <summary>
+            Gets a specific Game.
+            </summary>
+            <param name="id"></param>
+            <returns>A a specific Game</returns>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.ItemsController.GetItems">
+            <summary>
+            Gets all Items.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.ItemsController.GetItemsFromGame(System.String)">
+            <summary>
+            Gets all Items from a specific game.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.ItemsController.GetItem(System.String)">
+            <summary>
+            Gets a specific Item.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.LocationsController.GetLocations">
+            <summary>
+            Gets all Locations.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.LocationsController.GetLocationsFromGame(System.String)">
+            <summary>
+            Gets all Locations from a specific game.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.LocationsController.GetLocation(System.String)">
+            <summary>
+            Gets a spcific Location.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.MountsController.GetMounts">
+            <summary>
+            Gets all Mounts.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.MountsController.GetMountsFromGame(System.String)">
+            <summary>
+            Gets all Mounts from a specific game.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.MountsController.GetMount(System.String)">
+            <summary>
+            Gets a specific Mount.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.PeopleController.GetPeople">
+            <summary>
+            Gets all People.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.PeopleController.GetPerson(System.String)">
+            <summary>
+            Gets all People from a specific game.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.PeopleController.GetPeopleFromGame(System.String)">
+            <summary>
+            Gets a specific Person.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.WeaponsController.GetWeapons">
+            <summary>
+            Gets all Weapons.
+            </summary>
+        </member>
+        <member name="M:RedDeadAPI.Controllers.WeaponsController.GetWeapon(System.String)">
+            <summary>
+            Gets a specific game.
+            </summary>
+        </member>
+    </members>
+</doc>
